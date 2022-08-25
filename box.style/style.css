@@ -1,0 +1,22 @@
+body {
+    font-family: "adobe-clean", sans-serif;
+    margin: 0;
+}
+
+.txt_grey {
+    color: grey;
+}
+
+.rounded_style {
+    border: 1.5px solid rgb(198, 212, 70);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.inli_block {
+    display: inline-flex;
+}
+
+.bgrning {
+    background-color: rgb(161, 206, 35);
+}
