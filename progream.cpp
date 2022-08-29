@@ -6,6 +6,6 @@ int main() {
     
 for(int i=1; i<10; i++){
 cout<<"hi!"<<endl;
-cin>>i;
+cin>>i<<"hello dear sir: "<<endl; ;
 }  return 0;
 }
