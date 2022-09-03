@@ -8,7 +8,8 @@ int main(){
 	cout<<phae.find("noe", 1)<<endl;
 //	substring started
 	string wphae = "wenow new working example";
-	cout<<wphae.substr(10, 2)<<endl;
+	cout<<wphae.substr(9, 12)<<endl;
+	
 
 
 	return 0;
