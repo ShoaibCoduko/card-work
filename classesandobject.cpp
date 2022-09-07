@@ -1,12 +1,18 @@
 #include<iostream>
-using namespace std;
+using std::string;
+class empol{
+	public:
+		string name1;
+		string com;
+		int age;
+};
+
 int main (){
-	
-	cout<<"\t \t  Getter and Setters"<<endl;
-	string paraghph = "qwertyuio";
-	for(int i=1; i<paraghph; i++){
-		cout<<i<<endl;
-	}
-	
+	empol empol1;
+	empol1.name1="shoaib";
+	empol1.com="codude";
+	empol1.age=25;
+	cout<<empol1<<endl;
+		
 	return 0;
 }
