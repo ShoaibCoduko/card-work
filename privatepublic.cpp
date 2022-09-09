@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//we are define inside function in class
 class stud{
 	 private:
 	 	int rollno = 10;
@@ -10,6 +11,7 @@ class stud{
 		 }
 	
 };
+
 int main()
 {
 	stud st1;
