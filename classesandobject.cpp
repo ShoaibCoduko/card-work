@@ -1,18 +1,20 @@
 #include<iostream>
-using std::string;
-class empol{
-	public:
-		string name1;
-		string com;
-		int age;
+using namespace std;
+class student{
+ private:
+ 	int n =10;
+ 	public:
+ 		void show(){
+ 			cout<<"the value of n: "<<n<<endl;
+		 }
 };
 
 int main (){
-	empol empol1;
-	empol1.name1="shoaib";
-	empol1.com="codude";
-	empol1.age=25;
-	cout<<empol1<<endl;
-		
+	student s1;
+	s1.show();
 	return 0;
+	
+	
+	
+
 }
